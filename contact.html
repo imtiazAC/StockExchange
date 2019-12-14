@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>A | S | E</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="img/fav.png" type="images/x-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!--Header section
+================================================== -->
+<div class="row hd_sec">
+	<div class="col-6 col-s-3">
+		<a href="index.html"><img src="img/logo.png"></a>
+		<p>Creating Wealth and Value</p>
+	</div>
+	<div class="col-6 col-s-3 btn_sec">
+		<button class="btn button1">LOGIN</button>
+		<button class="btn button2">REGISTER</button>
+		<form>
+			<input type="text" name="search" placeholder="Search..">
+		</form>
+
+	</div>
+</div>
+
+<!--Menu section
+================================================== -->
+<div class="row">
+	<div class="col-12 col-s-9 menu_sec">
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">Home</a>
+			<a href="about.html">About</a>
+			<a href="#contact">Market Update</a>
+			<a href="#contact">Rules & Regulation</a>
+			<div class="dropdown">
+				<button class="dropbtn">Companies Info
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="company.html">Listed Companies</a>
+					<a href="#">New Issues (IPO)</a>
+				</div>
+			</div> 
+
+			<div class="dropdown">
+				<button class="dropbtn">Investor Guide
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">General Profile of BD</a>
+					<a href="#">Economy of BD</a>
+					<a href="#">Market at a Glance</a>
+					<a href="#">FAQ</a>
+				</div>
+			</div> 
+			<a href="#">Listting</a>
+			<a href="#">Product</a>
+			<a href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+	</div>
+</div>
+
+<!--Address section
+================================================== -->
+<div class="row add_sec">
+	<div class="one col-4 col-s-3">
+		<h3>LOCATION</h3>
+		<p>Flat B-6, House 14/A, Road 2/2, Banani, Dhaka-1213.</p>
+	</div>
+	<div class="one col-4 col-s-3">
+		<h3>CONTACT</h3>
+		<p>+88 01900000000 | +88 02 0000000</p>
+	</div>
+	<div class="one col-4 col-s-3">
+		<h3>MAIL</h3>
+		<p>aitustockexchange@gmail.com</p>
+	</div>
+</div>
+<!--Google Map section
+================================================== -->
+<div class="row">
+	<div class="google_map col-12 col-s-6">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.9317020444146!2d90.3980223142976!3d23.78544629335499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76cdca0e5ab%3A0xc4d07edd68659ce0!2sDynamic%20Hubs%C2%AE!5e0!3m2!1sen!2sbd!4v1568230058296!5m2!1sen!2sbd" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	</div>
+</div>
+
+
+<!--contact form section
+================================================== -->
+<div class="row cnt_frm">
+	<div class="col-3"></div>
+	<div class="col-6 col-s-6">
+		<h1>Send us a message
+			We will respond as soon as
+		possible</h1>
+		<form id="contact" action="" method="post">
+			<fieldset>
+				<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+			</fieldset>
+			<fieldset>
+				<input placeholder="Your Email Address" type="email" tabindex="2" required>
+			</fieldset>
+			<fieldset>
+				<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+			</fieldset>
+<!--<fieldset>
+  <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+</fieldset>-->
+<fieldset>
+	<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+</fieldset>
+<fieldset>
+	<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+</fieldset>
+</form>
+
+</div>
+<div class="col-3"></div>
+</div>
+
+<!--footer section
+================================================== -->
+<div class="row footer">
+	<div class="col-3 col-s-3"></div>
+	<div class=" ftr col-6 col-s-12">
+		<a href="">Home</a>
+		<a href="">Download</a>
+		<a href="">Data Archives</a>
+		<a href="">Career at DSE</a>
+		<a href="">FAQ</a>
+		<a href="">Site</a>
+		<a href="">Map Link</a>
+		<p><a href="">© Dhaka Stock Exchange 2015</a></p>
+		<p><a href=""> Powered By <strong> Imtiaz Ahmed Chowdhury</strong>, A Division of Bangladesh Export Import Company Ltd.</a></p>
+	</div>
+	<div class="col-3 col-s-3"></div>
+</div>
+<!--JS section
+================================================== -->
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+</body>
+</html>
